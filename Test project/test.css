@@ -1,0 +1,111 @@
+*{
+    text-decoration: none;
+    list-style-type: none;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+.navbar{
+    
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    padding-right: 15px;
+    padding-left: 15px;
+    margin-top: 20px;
+    margin-bottom: 70px;
+}
+#main{
+    width: 80%;
+    height: auto;
+    background-color:rgb(232, 236, 236);
+    padding: 50px;
+    padding-left: 100px;
+    padding-right: 100px;
+    border-radius: 20px;
+    margin: 50px auto;
+}
+.navdiv{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    
+}
+li {
+    list-style: none;
+    display: inline-block;
+    font-size: .5em;
+}   
+li a{
+    color: black;
+    font-size: 20px;
+    padding-right: 30px;
+    font-weight: bold;
+    
+}
+.navdiv li:hover{
+   color:white;
+    background-color:blueviolet;
+    
+    padding: 10px;
+    border-radius: 20px;
+    text-align: center;
+    
+}
+#button{
+    width: auto;
+    height: auto;
+    color:white;
+    background-color: rgb(35, 4, 63);
+    border-radius: 10px;
+    padding: 20px;
+    
+    
+}
+#p1{
+    color: white;
+    background-color: rgb(35, 4, 63);
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    width: auto;
+    display: inline-block;
+    padding: 10px;
+    border-radius: 20px;
+}
+pre{
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-size: 3em;
+    padding-top: 5px;
+    padding-bottom: 0px;
+    margin-top: 5px;
+    margin-bottom: 0;
+}
+#para{
+    width: 600px;
+    height: auto;
+  
+
+}
+p{
+    padding-top: 5px;
+}
+#para input{
+    width: 280px;
+    height:50px;
+    border-radius: 5px;
+    padding-left: 10px;
+    border-color: antiquewhite;
+}
+button{
+    width: 100px;
+    height:50px;
+    border-radius: 5px;
+    color: white;
+    background-color: rgb(35, 4, 63);
+}
+
+#div{
+    display: flex;
+    justify-content: center;
+}
+#div img{
+    width: 400px;
+    height: 400px;
+}
+
+
